@@ -1,9 +1,7 @@
 package section1.string.findstring;
 
-import java.util.Arrays;
 import java.util.Scanner;
 import java.util.function.Predicate;
-import java.util.stream.Stream;
 
 /*
 1. 문자 찾기
