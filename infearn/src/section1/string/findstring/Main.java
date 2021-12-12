@@ -16,9 +16,9 @@ import java.util.function.Predicate;
 출력
 첫 줄에 해당 문자의 개수를 출력한다.
  */
-public class Me {
+public class Main {
     public static void main(String[] args){
-        Me me = new Me();
+        Main me = new Main();
         Scanner in = new Scanner(System.in);
 //        String input1 = in.next();
 //        char input2 = in.next().charAt(0);
@@ -62,3 +62,4 @@ public class Me {
         return answer;
     }
 }
+
