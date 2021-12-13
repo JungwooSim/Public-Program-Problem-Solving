@@ -17,6 +17,7 @@
 1. 학급 회장(영상 후반 HashMap 추가 설명)
 
 ## Stack, Queue(자료구조)
+1. 올바른 괄호
 
 ## Sorting and Searching(정렬, 이분검색과 결정알고리즘)
 
