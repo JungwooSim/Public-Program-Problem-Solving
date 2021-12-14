@@ -1,6 +1,4 @@
-package section1.string.wordflip;
-
-import java.util.Scanner;
+package section1.one_string.wordflip;
 
 /*
 4. 단어 뒤집기

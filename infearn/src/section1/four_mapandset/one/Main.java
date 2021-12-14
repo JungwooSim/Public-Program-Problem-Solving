@@ -1,9 +1,7 @@
-package section1.mapandset.one;
+package section1.four_mapandset.one;
 
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Scanner;
-import java.util.SortedMap;
 
 /*
 1. 학급 회장(해쉬)

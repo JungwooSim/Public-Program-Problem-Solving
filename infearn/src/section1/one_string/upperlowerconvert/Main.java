@@ -1,6 +1,4 @@
-package section1.string.upperlowerconvert;
-
-import java.util.Scanner;
+package section1.one_string.upperlowerconvert;
 
 /*
 2. 대소문자 변환

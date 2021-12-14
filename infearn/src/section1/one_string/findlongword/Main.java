@@ -1,4 +1,4 @@
-package section1.string.findlongword;
+package section1.one_string.findlongword;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package section1.array.maxchoise;
+package section1.two_array.maxchoise;
 
 import java.util.ArrayList;
 import java.util.Scanner;

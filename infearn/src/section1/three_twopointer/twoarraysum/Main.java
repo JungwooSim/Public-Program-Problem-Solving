@@ -1,4 +1,4 @@
-package section1.twopointer.twoarraysum;
+package section1.three_twopointer.twoarraysum;
 
 import java.util.ArrayList;
 import java.util.Scanner;

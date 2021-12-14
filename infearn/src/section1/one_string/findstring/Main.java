@@ -1,4 +1,4 @@
-package section1.string.findstring;
+package section1.one_string.findstring;
 
 import java.util.Scanner;
 import java.util.function.Predicate;

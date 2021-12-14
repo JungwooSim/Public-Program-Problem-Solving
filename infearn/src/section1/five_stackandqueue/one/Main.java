@@ -1,6 +1,5 @@
-package section1.stackandqueue.one;
+package section1.five_stackandqueue.one;
 
-import java.util.Scanner;
 import java.util.Stack;
 
 /*

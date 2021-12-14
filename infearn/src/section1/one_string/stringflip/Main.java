@@ -1,4 +1,4 @@
-package section1.string.stringflip;
+package section1.one_string.stringflip;
 
 import java.util.Scanner;
 
