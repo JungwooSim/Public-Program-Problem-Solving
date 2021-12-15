@@ -27,9 +27,14 @@
 2. 이진수 출력(재귀)
 3. 팩토리얼
 4. 피보나치 재귀(메모이제이션)
+5. 이진트리순회(DFS : Depth-First Search)
+6. 부분집합 구하기(DFS)
+7. 이진트리 레벨탐색(BFS : Bread-First Search)
+8. 송아지 찾기1(BFS)
+9. Tree 말단노드까지의 가장 짧은 경로(DFS)
+10. Tree 말단노드까지의 가장 짧은 경로(BFS)
 
 ## DFS, BFS 활용
-
 
 ## Greedy Algorithm
 
