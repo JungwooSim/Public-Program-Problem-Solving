@@ -14,6 +14,7 @@
 
 ## 3. Two pointers, Sliding window [효율성: O(n^2) --> O(n)]
 1. 두 배열 합치기(two pointers algorithm)
+2. 공통원소구하기(two pointers algorithm)
 
 ## 4. HashMap, TreSet (해쉬, 정렬지원 Set)
 1. 학급 회장(영상 후반 HashMap 추가 설명)
