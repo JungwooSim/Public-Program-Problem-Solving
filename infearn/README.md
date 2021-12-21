@@ -18,6 +18,7 @@
 
 ## 4. HashMap, TreSet (해쉬, 정렬지원 Set)
 1. 학급 회장(영상 후반 HashMap 추가 설명)
+2. 아나그램(HashMap)
 
 ## 5. Stack, Queue(자료구조)
 1. 올바른 괄호
