@@ -6,6 +6,7 @@
 3. 문장 속 단어(indexOf(), substring())
 4. 단어 뒤집기(StringBuilder 이용법 또는 직접뒤집기)
 5. 특정 문자 뒤집기(toCharArray())
+6. 중복문자제거
 
 ## 2. Array
 1. 큰 수 출력하기
