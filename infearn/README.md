@@ -10,6 +10,7 @@
 
 ## 2. Array
 1. 큰 수 출력하기
+2. 보이는 학생
 
 ## 3. Two pointers, Sliding window [효율성: O(n^2) --> O(n)]
 1. 두 배열 합치기(two pointers algorithm)
