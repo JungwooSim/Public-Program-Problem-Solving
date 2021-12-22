@@ -22,11 +22,13 @@
 
 ## 5. Stack, Queue(자료구조)
 1. 올바른 괄호
+2. 괄호문자제거
 
 ## 6. Sorting and Searching(정렬, 이분검색과 결정알고리즘)
 1. 선택정렬
+2. 버블정렬
 
-## Recursive, Tree, Graph(DFS, BFS 기초)
+## 7. Recursive, Tree, Graph(DFS, BFS 기초)
 1. 재귀함수(스택프레임)
 2. 이진수 출력(재귀)
 3. 팩토리얼
@@ -42,7 +44,8 @@
 13. 경로탐색(인접리스트, ArrayList)
 14. 그래프 최단거리(BFS)
 
-## DFS, BFS 활용
+## 8. DFS, BFS 활용
+1. 합이 같은 부분집합
 
 ## Greedy Algorithm
 
