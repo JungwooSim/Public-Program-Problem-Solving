@@ -47,6 +47,7 @@
 ## 8. DFS, BFS 활용
 1. 합이 같은 부분집합
 
-## Greedy Algorithm
+## 9. Greedy Algorithm
+1. 씨름 선수
 
 ## dynamic programming(동적계획법)
