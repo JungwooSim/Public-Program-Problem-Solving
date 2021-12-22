@@ -50,4 +50,5 @@
 ## 9. Greedy Algorithm
 1. 씨름 선수
 
-## dynamic programming(동적계획법)
+## 10. dynamic programming(동적계획법)
+1. 계단오르기
