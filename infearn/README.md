@@ -7,26 +7,32 @@
 4. 단어 뒤집기(StringBuilder 이용법 또는 직접뒤집기)
 5. 특정 문자 뒤집기(toCharArray())
 6. 중복문자제거
+7. 회문문자열
 
 ## 2. Array
 1. 큰 수 출력하기
 2. 보이는 학생
+3. 가위바위보
 
 ## 3. Two pointers, Sliding window [효율성: O(n^2) --> O(n)]
 1. 두 배열 합치기(two pointers algorithm)
 2. 공통원소구하기(two pointers algorithm)
+3. 최대 매출(Sliding window)
 
 ## 4. HashMap, TreSet (해쉬, 정렬지원 Set)
 1. 학급 회장(영상 후반 HashMap 추가 설명)
 2. 아나그램(HashMap)
+3. 매출액의 종류(Hash, sliding window)
 
 ## 5. Stack, Queue(자료구조)
 1. 올바른 괄호
 2. 괄호문자제거
+3. 크레인 인형뽑기(카카오)
 
 ## 6. Sorting and Searching(정렬, 이분검색과 결정알고리즘)
 1. 선택정렬
 2. 버블정렬
+3. 삽입정렬
 
 ## 7. Recursive, Tree, Graph(DFS, BFS 기초)
 1. 재귀함수(스택프레임)
