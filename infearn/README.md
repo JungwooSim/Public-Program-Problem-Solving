@@ -52,9 +52,11 @@
 
 ## 8. DFS, BFS 활용
 1. 합이 같은 부분집합
+2. 바둑이 승차(DFS)
 
 ## 9. Greedy Algorithm
 1. 씨름 선수
+2. 회의실 배정
 
 ## 10. dynamic programming(동적계획법)
 1. 계단오르기
