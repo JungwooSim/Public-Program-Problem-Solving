@@ -64,6 +64,7 @@
 ## 9. Greedy Algorithm
 1. 씨름 선수
 2. 회의실 배정
+3. 결혼식
 
 ## 10. dynamic programming(동적계획법)
 1. 계단오르기
