@@ -9,18 +9,21 @@
 6. 중복문자제거
 7. 회문문자열
 8. 팰린드롬(replaceAll 정규식 이용)
+9. 숫자만 추출
 
 ## 2. Array
 1. 큰 수 출력하기
 2. 보이는 학생
 3. 가위바위보
 4. 피보나치수열
+5. 소수 (에라토테네스 체)
 
 ## 3. Two pointers, Sliding window [효율성: O(n^2) --> O(n)]
 1. 두 배열 합치기(two pointers algorithm)
 2. 공통원소구하기(two pointers algorithm)
 3. 최대 매출(Sliding window)
 4. 연속 부분수열(복합적 문제)
+5. 연속된 자연수의 합(two pointers)
 
 ## 4. HashMap, TreSet (해쉬, 정렬지원 Set)
 1. 학급 회장(영상 후반 HashMap 추가 설명)
@@ -69,3 +72,4 @@
 ## 10. dynamic programming(동적계획법)
 1. 계단오르기
 2. 돌다리 건너기
+3. 최대부분증가수열(LIS)
