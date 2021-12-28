@@ -30,18 +30,21 @@
 2. 아나그램(HashMap)
 3. 매출액의 종류(Hash, sliding window)
 4. 모든 아나그램 찾기(Hash, sliding window : 시간복잡도 O(n))
+5. K 번째 큰 수(영상 후반 TreeSet 추가 설명)
 
 ## 5. Stack, Queue(자료구조)
 1. 올바른 괄호
 2. 괄호문자제거
 3. 크레인 인형뽑기(카카오)
 4. 후위식 연산(postfix)
+5. 쇠막대기
 
 ## 6. Sorting and Searching(정렬, 이분검색과 결정알고리즘)
 1. 선택정렬
 2. 버블정렬
 3. 삽입정렬
 4. LRU(캐시, 카카오 변형)
+5. 중복 확인
 
 ## 7. Recursive, Tree, Graph(DFS, BFS 기초)
 1. 재귀함수(스택프레임)
@@ -63,6 +66,7 @@
 1. 합이 같은 부분집합
 2. 바둑이 승차(DFS)
 3. 최대점수 구하기
+4. 중복순열
 
 ## 9. Greedy Algorithm
 1. 씨름 선수
