@@ -72,6 +72,7 @@
 1. 씨름 선수
 2. 회의실 배정
 3. 결혼식
+4. 최대수입스케쥴(Priority Queue)
 
 ## 10. dynamic programming(동적계획법)
 1. 계단오르기
