@@ -50,14 +50,8 @@ public class Main {
         for (int i = 0; i < kindSize; i++) {
             for (int j = moneyKind[i]; j <= money; j++) {
                 dy[j] = Math.min(dy[j], dy[j - moneyKind[i]] + 1);
-//                System.out.print(dy[j] + " ");
             }
-//            System.out.println("");
-//            System.out.println(Arrays.toString(dy));
         }
-
-//        System.out.println(Arrays.toString(dy));
-
         System.out.println(dy[money]);
     }
 }
