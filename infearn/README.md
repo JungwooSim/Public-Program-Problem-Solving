@@ -79,6 +79,7 @@
 2. 회의실 배정
 3. 결혼식
 4. 최대수입스케쥴(Priority Queue)
+5. 다익스트라 알고리즘
 
 ## 10. dynamic programming(동적계획법)
 1. 계단오르기
