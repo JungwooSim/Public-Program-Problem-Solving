@@ -17,6 +17,7 @@
 3. 가위바위보
 4. 피보나치수열
 5. 소수 (에라토테네스 체)
+6. 뒤집은 소수
 
 ## 3. Two pointers, Sliding window [효율성: O(n^2) --> O(n)]
 1. 두 배열 합치기(two pointers algorithm)
