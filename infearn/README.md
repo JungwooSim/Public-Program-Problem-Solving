@@ -10,6 +10,7 @@
 7. 회문문자열
 8. 팰린드롬(replaceAll 정규식 이용)
 9. 숫자만 추출
+10. 가장 짧은 문자거리
 
 ## 2. Array
 1. 큰 수 출력하기
@@ -18,6 +19,7 @@
 4. 피보나치수열
 5. 소수 (에라토테네스 체)
 6. 뒤집은 소수
+7. 점수계산
 
 ## 3. Two pointers, Sliding window [효율성: O(n^2) --> O(n)]
 1. 두 배열 합치기(two pointers algorithm)
