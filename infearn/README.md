@@ -21,6 +21,7 @@
 6. 뒤집은 소수
 7. 점수계산
 8. 등수구하기
+9. 격자판 최대합
 
 ## 3. Two pointers, Sliding window [효율성: O(n^2) --> O(n)]
 1. 두 배열 합치기(two pointers algorithm)
