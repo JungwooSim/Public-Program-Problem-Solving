@@ -23,6 +23,7 @@
 7. 점수계산
 8. 등수구하기
 9. 격자판 최대합
+10. 봉우리
 
 ## 3. Two pointers, Sliding window [효율성: O(n^2) --> O(n)]
 1. 두 배열 합치기(two pointers algorithm)
@@ -53,6 +54,7 @@
 5. 중복 확인
 6. 장난꾸러기
 7. 좌표 정렬(compare To)
+8. 이분검색
 
 ## 7. Recursive, Tree, Graph(DFS, BFS 기초)
 1. 재귀함수(스택프레임)
