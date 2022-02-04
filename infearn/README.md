@@ -24,6 +24,7 @@
 8. 등수구하기
 9. 격자판 최대합
 10. 봉우리
+11. 임시반장정하기
 
 ## 3. Two pointers, Sliding window [효율성: O(n^2) --> O(n)]
 1. 두 배열 합치기(two pointers algorithm)
@@ -46,6 +47,7 @@
 4. 후위식 연산(postfix)
 5. 쇠막대기
 6. 공주 구하기
+7. 교육과정설계
 
 ## 6. Sorting and Searching(정렬, 이분검색과 결정알고리즘)
 1. 선택정렬
