@@ -58,6 +58,7 @@
 6. 장난꾸러기
 7. 좌표 정렬(compare To)
 8. 이분검색
+9. 뮤직비디오(결정알고리즘)
 
 ## 7. Recursive, Tree, Graph(DFS, BFS 기초)
 1. 재귀함수(스택프레임)
