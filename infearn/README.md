@@ -26,6 +26,7 @@
 9. 격자판 최대합
 10. 봉우리
 11. 임시반장정하기
+12. 멘토링
 
 ## 3. Two pointers, Sliding window [효율성: O(n^2) --> O(n)]
 1. 두 배열 합치기(two pointers algorithm)
