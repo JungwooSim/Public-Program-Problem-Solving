@@ -34,6 +34,7 @@
 3. 최대 매출(Sliding window)
 4. 연속 부분수열(복합적 문제)
 5. 연속된 자연수의 합(two pointers)
+6. 최대 길이 연속부분수열(복합적 문제)
 
 ## 4. HashMap, TreSet (해쉬, 정렬지원 Set)
 1. 학급 회장(영상 후반 HashMap 추가 설명)
