@@ -1,4 +1,4 @@
-package kotlin_source.one_string
+package kotlin_source.string
 
 import java.lang.System.`in`
 import java.util.*
