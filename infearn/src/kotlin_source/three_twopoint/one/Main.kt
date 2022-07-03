@@ -59,3 +59,7 @@ fun main() {
 
     println(result)
 }
+
+/**
+ 느낀점 : array 를 입력받는게 정해져있으므로 while 문을 그 수만큼 생성함
+ */
