@@ -1,7 +1,6 @@
-package kotlin_source.string.two
+package kotlin_source.one_string.two
 
 import java.lang.System.`in`
-import java.nio.charset.Charset
 import java.util.*
 
 

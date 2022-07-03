@@ -1,4 +1,4 @@
-package kotlin_source.string.three
+package kotlin_source.one_string.three
 
 import java.lang.System.`in`
 import java.util.*

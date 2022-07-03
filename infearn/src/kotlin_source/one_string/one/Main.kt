@@ -1,7 +1,4 @@
-package kotlin_source.string
-
-import java.lang.System.`in`
-import java.util.*
+package kotlin_source.one_string
 
 /*
 1. 문자 찾기
@@ -17,7 +14,7 @@ import java.util.*
 첫 줄에 해당 문자의 개수를 출력한다.
  */
 fun main() {
-    val scanner = Scanner(`in`)
+//    val scanner = Scanner(`in`)
 
 //    val input: String = scanner.next()
     val inputSample: String = "Computercooler"

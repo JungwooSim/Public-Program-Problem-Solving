@@ -1,4 +1,4 @@
-package kotlin_source.string
+package kotlin_source.one_string
 
 import java.lang.System.`in`
 import java.util.*
@@ -28,6 +28,7 @@ fun main() {
     println(solution(str))
 }
 
+// StringBuilder 의 reverse() 를 사용하면 쉽게 가능
 fun solution(str: String): String {
     var result = StringBuilder()
 
