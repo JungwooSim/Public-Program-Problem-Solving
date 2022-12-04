@@ -31,9 +31,49 @@ countAndSay(4) = say "21" = one 2 + one 1 = "12" + "11" = "1211"
  */
 
 fun main() {
-
+  println(countAndSay(5))
 }
 
 fun countAndSay(n: Int): String {
-  return ""
+  if (n == 1) return "1"
+  if (n == 2) return "11"
+  if (n == 3) return "21"
+
+  var defaultStr = "21"
+  var output = ""
+
+  // 단순 반복문을 돌리기 위함
+  for (n in 4..n) {
+
+    var countTarget = ""
+    var isNumberChange: Boolean = false
+    var countNumber = 1
+    output = ""
+
+    // 로직 수월하게 1부터 시작
+    for (i in 1 until defaultStr.length) {
+      isNumberChange = defaultStr[i-1] != defaultStr[i]
+
+      // 1부터 시작하므로 -1 해줘야함
+      if (i == 1) {
+        countTarget = defaultStr[0].toString()
+      } else {
+        countTarget = defaultStr[i-1].toString()
+      }
+
+      if (isNumberChange) {
+        output += "$countNumber" + countTarget
+        countNumber = 1
+      } else {
+        countNumber++
+      }
+    }
+
+    // 마지막 값 추가
+    output += "$countNumber" + defaultStr[defaultStr.length-1]
+
+    defaultStr = output
+  }
+
+  return output
 }
