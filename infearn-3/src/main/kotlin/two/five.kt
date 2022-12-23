@@ -1,40 +1,40 @@
 package two.five
 
 /*
-5. 특정 문자 뒤집기
+5. 소수(에라토스테네스 체)
 설명
-영어 알파벳과 특수문자로 구성된 문자열이 주어지면 영어 알파벳만 뒤집고,
-특수문자는 자기 자리에 그대로 있는 문자열을 만들어 출력하는 프로그램을 작성하세요.
+자연수 N이 입력되면 1부터 N까지의 소수의 개수를 출력하는 프로그램을 작성하세요.
+만약 20이 입력되면 1부터 20까지의 소수는 2, 3, 5, 7, 11, 13, 17, 19로 총 8개입니다.
 
 입력
-첫 줄에 길이가 100을 넘지 않는 문자열이 주어집니다.
+첫 줄에 자연수의 개수 N(2<=N<=200,000)이 주어집니다.
 
 출력
-첫 줄에 알파벳만 뒤집힌 문자열을 출력합니다.
+첫 줄에 소수의 개수를 출력합니다.
 
 예시 입력 1
-a#b!GE*T@S
+20
 
 예시 출력 1
-S#T!EG*b@a
-*/
-
+8
+ */
 fun main() {
-  println(solution("a#b!GE*T@S"))
+  println(solution(20))
 }
 
-fun solution(str: String): String {
+fun solution(n: Int): Int {
+  var result = 0
+  var ch = arrayOfNulls<Int>(n+1)
 
-  var ch = str.toCharArray()
-
-  for (i in 0 until ch.size / 2 ) {
-    if (ch[i] in 'a' .. 'z' || ch[i] in 'A' .. 'Z') {
-      var tmp = ch[ch.size - 1 - i]
-      ch[ch.size - 1 - i] = ch[i]
-      ch[i] = tmp
+  for (i in 2..n) {
+    if (ch[i] == null) {
+      result++
+      for (j in i..n step i) {
+        ch[j] = 1
+      }
     }
   }
 
-  return String(ch)
+  return result
 }
 
