@@ -1,61 +1,57 @@
-package programmers
+package com.example.programmers
 
-/*
-삼각 달팽이
- */
 fun main() {
-  solution(4)
+  println(solution(4).contentToString())
 }
 
 fun solution(n: Int): IntArray {
+  val arr = Array(n) { IntArray(n) }
+  var (x, y) = arrayOf(0, -1)
 
-  val triangle = Array(n) { IntArray(n) { 0 } }
+  (1..n).forEach { i ->
+    repeat(n - i + 1) { j ->
+      val l = (n - i + 2..n).sum() + j + 1
 
-  var x = 0
-  var y = 0
-  var v = 1
+      when (i % 3) {
+        1 -> y++
+        2 -> x++
+        else -> {
+          y--
+          x--
+        }
+      }
 
-  while (true) {
-    // 아래로 이동
-    while (true) {
-      triangle[y][x] = v++
-      if (y + 1 == n || triangle[y+1][x] != 0) break
-      y += 1
-    }
-
-    // 오른쪽으로 한칸 이동
-    if (x + 1 == n || triangle[y][x+1] != 0) break
-    x += 1
-
-    // 오른쪽 이동
-    while (true) {
-      triangle[y][x] = v++
-      if (x + 1 == n || triangle[y][x+1] != 0) break
-      x += 1
-    }
-
-    if (triangle[y-1][x-1] != 0) break
-    x -= 1
-    y -= 1
-
-    // 왼쪽 위로 이동
-    while (true) {
-      triangle[y][x] = v++
-      if (triangle[y-1][x-1] != 0) break
-      x -= 1
-      y -= 1
-    }
-    if (y + 1 == n || triangle[y+1][x] != 0) break
-    y += 1
-  }
-
-  var answer = IntArray(v-1) {0}
-  var index = 0
-  for (i in 0 until n) {
-    for (j in 0 .. i) {
-      answer[index++] = triangle[i][j]
+      arr[y][x] = l
     }
   }
 
-  return answer
+  return arr.flatMap { it.filter { value -> value != 0 } }.toIntArray()
 }
+
+/*
+class Solution {
+    fun solution(n: Int): IntArray {
+        val arr = Array<IntArray>(n) { IntArray(n) }
+        var (x, y) = arrayOf(0, -1)
+
+        (1..n).forEach { i ->
+            repeat(n - i + 1) { j ->
+                val l = (n - i + 2..n).sum() + j + 1
+
+                when (i % 3) {
+                    1 -> y++
+                    2 -> x++
+                    else -> {
+                        y--
+                        x--
+                    }
+                }
+
+                arr[y][x] = l
+            }
+        }
+
+        return arr.flatMap { it.filter { value -> value != 0 } }.toIntArray()
+    }
+}
+ */
